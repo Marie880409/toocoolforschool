@@ -1,0 +1,97 @@
+.look_body {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 80px;
+}
+    .look_blank{
+        width: 1200px;
+        height: 200px;
+
+    }
+    .look_wrap {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        width: 1000px;
+        height: 1300px;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+        .look_title {
+            position: relative;
+            width: 1000px;
+            height: 100px;
+            padding: 15px;
+        }
+            .look_title > h2 {
+                font-size: 20pt;
+                margin: 10px;
+            }
+            .look_title > p {
+                font-size: 9pt;
+            }
+        .look_img{
+            width: 1000px;
+            height: 700px;
+            
+        }
+        .look_item_wrap {
+            position: relative;
+            display: flex;
+            flex-flow: row wrap;
+            width: 1000px;
+            height: 380px;
+            align-items: center;
+            
+            
+        }
+        
+            .look_item > img {
+                position: relative;
+                display: flex;
+                margin-left: 12px;
+                margin-top: 10px;
+            }
+
+
+
+        .forth_swiper {
+        width: 1000px;
+        height: 700px;
+        transition-timing-function: linear;
+        }
+        .swiper-pagination-bullet {
+            
+            width: 13px;
+            height: 13px;
+            margin: 5px;
+            opacity: 1 !important;
+            cursor: pointer;
+            color: #fff;
+            background: transparent;
+            border: 2px solid white;
+        }   
+        .swiper-pagination-bullet-active {
+            font-weight: 700;
+            background: #fff;
+        }
+        .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-timing-function: linear;
+      }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition-timing-function: linear;
+        }

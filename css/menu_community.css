@@ -1,0 +1,213 @@
+.community_body {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    top: 100px;
+}
+.board_wrap_all {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    top:40px;
+}
+    .service_menu_all {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        width: 18%;
+        height: 600px;
+        text-align: left;
+        
+    }
+
+        .service_menu_all > h2 {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 60px;
+            font-size: 26pt;
+            font-weight: 500;
+            align-items: center;
+            /* background: wheat; */
+        }
+        .service_menu {
+            position: relative;
+            display: flex;
+            flex-flow:row wrap;
+            width:100%;
+            height: 320px;
+            /* background: wheat; */
+        }
+            .service_menu > li {
+                position: relative;
+                display: flex;
+                width: 100%;
+                height: 40px;
+                cursor: pointer;
+                font-size: 12pt;
+            }
+                .service_menu > li:nth-child(1){
+                    border-top: 1px solid #ddd;
+                }
+                .service_menu > li:nth-child(8){
+                    border-bottom: 1px solid #ddd;
+                }
+        .cs {
+            position: relative;
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            height: 180px;
+            text-align: left;
+            font-weight: 400;
+            border-bottom: 1px solid #ddd;
+        }
+            .cs > h3 {
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                font-weight: bolder;
+                font-size: 15pt;
+                align-items: center;
+            }
+            
+            .cs > p {
+                width: 100%;
+                height:20px;
+                margin-top: 10px;
+                color: rgb(79, 76, 76);
+                font-weight: bold;
+            }
+        
+        .board_notice_all {
+            position: relative;
+            display: flex;
+            flex-flow: row wrap;
+            width: 78%;
+            height: 600px;
+            margin: 0 auto;
+        }
+            .board_notice_all > h3 {
+                display: flex;
+                width: 100%;
+                height: 40px;
+                align-items: center;
+                font-size: 15pt;
+            }
+            .board_input {
+                position: relative;
+                display: flex;
+                flex-flow: row nowrap;
+                width: 100%;
+                height: 90px;
+                align-items: center;
+                justify-content: center;
+                background: #fffefe;
+            }
+                .selction {
+                    position: relative;
+                    display: flex;
+                    width: 160px;
+                    height: 40px;
+                    border: 1px solid #ddd;
+                    font-size: 11pt;
+                    align-items: center;
+                    margin-right: 5px;
+                }
+                .event_input {
+                    display: flex;
+                    width: 160px;
+                    height: 40px;
+                    border: 1px solid #ddd;
+                    margin-right: 17px;
+                }
+                .serching_icon {
+                    position: relative;
+                    display: flex;
+                    width: 130px;
+                    height: 39px;
+                    color: white;
+                    justify-content: center;
+                    align-items: center;
+                    background: black;
+                }
+                    .serching_icon > img {
+                        position: relative;
+                        display: flex;
+                        width: 15px;
+                        height: 15px;
+                        margin: 5px;
+                        filter: contrast(0);
+                    }
+            .table_wrap {
+                position: relative;
+                width: 100%;
+                height: 400px;
+                top:10px;
+                background: white;
+            }
+                .table {
+                    position: relative;
+                    display: flex;
+                    flex-flow: row wrap;
+                    width: 100%;
+                    height: 150px;
+                    
+                }
+                    .table_head {
+                        display: flex;
+                        width: 100%;
+                        height: 50px;
+                        align-items: center;
+                        border-top: 1px solid black;
+                    }
+                    .table_head > li {
+                        height: 50px;
+                        line-height: 50px;
+                        text-align: center;
+                        margin: 10px;
+                    }
+                    .table_body {
+                        position: relative;
+                        display: flex;
+                        flex-flow: row wrap;
+                        width: 100%;
+                        height: 100px;
+                     }
+                     
+                        .table_inline {
+                            display: flex;
+                            width: 100%;
+                            height: 50px;
+                            align-items: center;
+                            text-align: left;
+                            border-top: 1px solid #ddd;
+                            border-bottom: 1px solid #ddd;
+                            border-collapse: collapse;
+                            
+                        }
+                            .table_inline > li {
+                                height: 50px;
+                                line-height: 50px;
+                                text-align: center;
+                                margin: 10px;
+                                
+                            }
+                            .table_inline > li:nth-child(2){
+                                font-size: 10pt;
+                                text-align: left;
+                                font-weight: bold;
+                                cursor: pointer;
+                            }
+                            .table_body > .table_inline:nth-child(2){
+                                border-top: none
+                            }
+    .menu_commu_footer {
+        position: relative;
+        width: 100%;
+        margin-top: 300px;
+    }

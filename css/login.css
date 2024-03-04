@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.login_screen {
+    position: relative;
+    width: 400px;
+    height: 1000px;
+    margin: 0 auto;
+    /* background: #ddd; */
+}
+    .top_bar {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: 80px;
+        top: 20px;
+    }
+        .top_icon {
+            position: relative;
+            display: flex;
+            width: 400px;
+            height: 30px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .top_bar > img{
+            position: relative;
+            display: flex;
+            width: 190px;
+            height: 38px;
+            margin: 0 auto;
+        }
+    .login_kakao {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: 330px;
+        margin-top: 40px;
+        /* background: pink; */
+    }
+        .login_kakao > h2 {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 50px;
+            font-size: 17pt;
+            align-items: center;
+            /* background:palegreen; */
+        }
+        .login_kakao > p:nth-child(2){
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 60px;
+            font-size: 11pt;
+            align-items: center;
+            top:-46px;
+            /* background:yellow; */
+        }
+    .kakao_bttn {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 55px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        font-weight: bold;
+        top:-50px;
+        background-color: #fee500;
+    }
+        .kakao_bttn > img {
+            position: relative;
+            display: flex;
+            right: 70px;
+        }
+    #shipping {
+        position: relative;
+        display: flex;
+        width: 100%;
+        top:-30px;
+        margin: 0 auto;
+    }
+    .login_or {
+        position: relative;
+        width:400px;
+        height:1px;
+        top:35px;
+        background: #ddd ;
+    }
+        .login_or::after {
+            position: absolute;
+            top: -8px;
+            left:180px;
+            content: "또는";
+            margin: 0 auto;
+            padding: 0 10px;
+            background: #fff;
+            font-size: 12px;
+            font-weight: 300;
+            color: #b2b2b2;
+        }
+    .login_else {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        width: 400px;
+        height: auto;
+        top:70px;
+    }
+        .login_ask {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 35px;
+            margin: 8px;
+            align-items: center;
+            border-radius: 25px;
+            background: #e6e5e5;
+        }
+            .member {
+                position: relative;
+                display: flex;
+                width: 50%;
+                height: 35px;
+                line-height: 35px;
+                border-radius: 25px;
+                align-items: center;
+                justify-content: center;
+                font-size: 11pt;
+                color:white;
+                background: rgb(20, 19, 19);
+            }
+            .non {
+                position: relative;
+                display: flex;
+                width: 50%;
+                height: 35px;
+                line-height: 35px;
+                font-size: 11pt;
+                align-items: center;
+                color: #7c7c7c;
+                justify-content: center;
+            }
+    .login_input {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: 250px;
+        top: 40px;
+    }
+
+        .login_wrap {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 40px;
+        }
+            .login_wrap > p {
+                position: absolute;
+                width: 100px;
+                height: 40px;
+                font-size: 11pt;
+                bottom: -25px;
+                color:#7c7c7c;
+            }
+            .idpw {
+                position: relative;
+                display: flex;
+                width: 100%;
+                border-top: none;
+                border-left: none;
+                border-right:none;
+                border-bottom: 1px solid #ddd;
+                background: none;
+                outline: none;
+            }
+    .member_login {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        line-height: 50px;
+        text-align: center;
+        top:20px;
+        background: #f0f0f0;
+        font-weight: bold;
+    }
+        .id_serch {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 30px;
+            justify-content: space-between;
+            font-size: 11pt;
+            top:8px;
+        }
+            .id_serch > p:nth-child(1){
+                color: #7c7c7c;
+            }
+    .login_outside {
+        position: relative;
+        display: flex;
+        width: 110px;
+        height: 50px;
+        margin: 0 auto;
+        top:60px;
+        justify-content: space-between;
+       
+    }   
+    .login_outside > #outside_logo:nth-child(1){
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background: rgb(33, 55, 197);
+        
+    }
+        #outside_logo{
+            position: relative;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            background: rgb(18, 180, 0);
+            
+        }
+            #outside_logo >img {
+                position: relative;
+                top:14px;
+                left:14px;
+            }
+
+        

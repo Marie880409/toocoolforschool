@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 11pt;
+    color: #000;
+    font-family: 'Helvetica Neue', Condensed;
+    font-weight: 400;
+}
+
+ul, li {
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
